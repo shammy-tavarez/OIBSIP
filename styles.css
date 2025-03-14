@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.848);
+   
+}
+
+.container{
+    background-color: white;
+    margin-top: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    background-color: rgba(94, 211, 207, 0.79);
+    color: white;
+    border-radius: 30px;
+}
+
+h2{
+    padding-top: 20px;
+}
+
+h1{
+    padding-top: 50px;
+}
+
+.hidden { 
+    display: none; 
+}
+
+.error { 
+    color: red; 
+}
+
+button{
+    background-color: rgba(74, 74, 234, 0.684);
+    color: white;
+    width: 150px;
+    margin-top: 10px;
+}
+
+a{
+    color: rgb(0, 255, 51);
+}
