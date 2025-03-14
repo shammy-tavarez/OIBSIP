@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(pexels-pixabay-33109.jpg);
+}
+
+header{
+    height: 50px;
+    padding-top: 5px;
+    text-align: center;
+    color: rgb(246, 246, 246);
+    background-color: rgba(0, 0, 0, 0.795);
+}
+
+.container {
+    float: left;
+    width: 270px;
+    margin-left: 20px;
+    margin-top: 60px;
+    background: rgba(255, 255, 255, 0.737);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: black;
+}
+
+.result {
+    float: right;
+    width: 1000px;
+    margin-right: 20px;
+    margin-top: 60px;
+    background: rgba(255, 255, 255, 0.79);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.496);
+    color: black;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ece9e9c7;
+    border-radius: 5px;
+}
+
+button {
+    width: 250px;
+    padding: 10px;
+    background-color: green;
+    color: rgba(255, 255, 255, 0.836);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.delete-btn {
+    background-color: red;
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.delete-btn:hover {
+    background-color: darkred;
+}
+
+#description{
+    height: 250px;
+    width: 250px;
+}
+
+#title{
+    width: 250px;
+}
+
